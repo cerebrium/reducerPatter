@@ -1,0 +1,44 @@
+.formContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formOutline {
+  width: 400px;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.inputBox {
+  margin: 10px 0px 0px 10px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "label input";
+}
+
+.inputBox input {
+  grid-area: input;
+  width: 60%;
+}
+.inputBox label {
+  grid-area: label;
+}
+
+.submitButton {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

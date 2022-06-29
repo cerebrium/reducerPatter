@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tableContainer {
+  margin: 50px;
+}
+
+.container td,
+th {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.container table {
+  border-collapse: collapse;
+}
+.container tr {
+  height: 2rem;
+}
+.container td {
+  width: 7rem;
+}
+.container td:last-of-type {
+  width: 1rem;
+  border-bottom: 0px;
+  cursor: pointer;
+}
+
+.container td:last-of-type:hover {
+  color: rgb(132, 0, 0);
+  transition: 0.2s;
+  border-radius: 1rem;
+}
